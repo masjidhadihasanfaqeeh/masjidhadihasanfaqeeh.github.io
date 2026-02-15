@@ -20,7 +20,9 @@
     "location": "Bogor, Indonesia",
     "tagline": "\"Indeed, the mosques are for Allah, so do not invoke anyone along with Allah.\"",
     "quoteSource": "— QS. Al-Jin: 18",
-    "ctaButton": "View Prayer Times"
+    "ctaButton": "View Prayer Times",
+    "prayerButton": "Prayer Times",
+    "imsakButton": "Imsak Schedule"
   },
   "about": {
     "badge": "About Us",
@@ -44,6 +46,8 @@
     "error": "Failed to load prayer times. Please try again.",
     "retry": "Retry",
     "note": "* Schedule based on Indonesian Ministry of Religious Affairs calculation",
+    "popupTitle": "Today's Prayer Times",
+    "viewFull": "View Full Schedule",
     "prayers": {
       "fajr": "Fajr",
       "dhuhr": "Dhuhr",
@@ -156,6 +160,7 @@
     "darkMode": "Dark Mode",
     "lightMode": "Light Mode",
     "language": "Language",
-    "share": "Share"
+    "share": "Share",
+    "close": "Close"
   }
 }

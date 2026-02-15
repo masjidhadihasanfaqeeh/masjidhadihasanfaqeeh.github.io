@@ -20,7 +20,9 @@
     "location": "Bogor, Indonesia",
     "tagline": "\"Sesungguhnya masjid-masjid itu adalah milik Allah. Maka janganlah kamu menyembah siapapun di dalamnya selain Allah.\"",
     "quoteSource": "— QS. Al-Jin: 18",
-    "ctaButton": "Lihat Jadwal Sholat"
+    "ctaButton": "Lihat Jadwal Sholat",
+    "prayerButton": "Jadwal Sholat",
+    "imsakButton": "Jadwal Imsak"
   },
   "about": {
     "badge": "Tentang Kami",
@@ -44,6 +46,8 @@
     "error": "Gagal memuat jadwal sholat. Silakan coba lagi.",
     "retry": "Coba Lagi",
     "note": "* Jadwal berdasarkan perhitungan Kementerian Agama RI",
+    "popupTitle": "Jadwal Sholat Hari Ini",
+    "viewFull": "Lihat Selengkapnya",
     "prayers": {
       "fajr": "Subuh",
       "dhuhr": "Dzuhur",
@@ -156,6 +160,7 @@
     "darkMode": "Mode Gelap",
     "lightMode": "Mode Terang",
     "language": "Bahasa",
-    "share": "Bagikan"
+    "share": "Bagikan",
+    "close": "Tutup"
   }
 }
