@@ -2,7 +2,7 @@
   "gallery": [
     {
       "id": "gallery-001",
-      "src": "assets/images/gallery/IMG_20260131_083533.jpeg",
+      "src": "assets/images/gallery/IMG_20260131_083533.webp",
       "alt": {
         "id": "Suasana Masjid Hadi Hasan Faqeeh",
         "en": "Masjid Hadi Hasan Faqeeh Atmosphere"
@@ -18,7 +18,7 @@
     },
     {
       "id": "gallery-002",
-      "src": "assets/images/gallery/IMG_20260131_083549.jpeg",
+      "src": "assets/images/gallery/IMG_20260131_083549.webp",
       "alt": {
         "id": "Kegiatan Pengajian Masjid",
         "en": "Mosque Islamic Study Activity"
@@ -34,7 +34,7 @@
     },
     {
       "id": "gallery-003",
-      "src": "assets/images/gallery/IMG_20260131_083641.jpeg",
+      "src": "assets/images/gallery/IMG_20260131_083641.webp",
       "alt": {
         "id": "Sholat Berjamaah",
         "en": "Congregational Prayer"
@@ -50,7 +50,7 @@
     },
     {
       "id": "gallery-004",
-      "src": "assets/images/gallery/IMG_20260131_083654.jpeg",
+      "src": "assets/images/gallery/IMG_20260131_083654.webp",
       "alt": {
         "id": "Kegiatan TPA",
         "en": "TPA Activity"
