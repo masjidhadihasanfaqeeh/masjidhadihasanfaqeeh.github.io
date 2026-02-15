@@ -1,0 +1,82 @@
+{
+  "activities": [
+    {
+      "id": "kegiatan-001",
+      "slug": "taman-pendidikan-al-quran",
+      "title": {
+        "id": "Taman Pendidikan Al-Quran (TPA)",
+        "en": "Quran Education Center (TPA)"
+      },
+      "shortDescription": {
+        "id": "Program pembelajaran Al-Quran untuk anak-anak usia 2-12 tahun dengan metode yang menyenangkan.",
+        "en": "Quran learning program for children ages 2-12 with fun and effective methods."
+      },
+      "fullDescription": {
+        "id": "Program pembelajaran Al-Quran untuk anak-anak usia 2-12 tahun dengan metode yang menyenangkan dan efektif. Kurikulum meliputi: pembelajaran Iqro dan Al-Quran, hafalan surat-surat pendek (Juz Amma), doa sehari-hari, praktik ibadah, dan pembinaan akhlak Islami. Santri dibimbing oleh ustadz dan ustadzah yang berpengalaman. Tersedia kelas untuk berbagai tingkatan mulai dari pemula hingga lanjutan.",
+        "en": "Quran learning program for children ages 2-12 with fun and effective methods. Curriculum includes: Iqro and Quran learning, memorization of short surahs (Juz Amma), daily prayers, worship practice, and Islamic character building. Students are guided by experienced teachers. Classes available for various levels from beginner to advanced."
+      },
+      "image": "assets/images/activities/tpa.png",
+      "schedule": {
+        "id": "Senin - Jumat",
+        "en": "Monday - Friday"
+      },
+      "time": "16:00 - 18:00 WIB",
+      "location": {
+        "id": "Ruang TPA Masjid Hadi Hasan Faqeeh",
+        "en": "TPA Room, Hadi Hasan Faqeeh Mosque"
+      },
+      "instructor": {
+        "id": "Tim Pengajar TPA",
+        "en": "TPA Teaching Team"
+      },
+      "targetAudience": {
+        "id": "Anak-anak usia 2-12 tahun",
+        "en": "Children ages 2-12"
+      },
+      "fee": {
+        "id": "Gratis",
+        "en": "Free"
+      },
+      "isActive": true
+    },
+    {
+      "id": "kegiatan-002",
+      "slug": "sholat-tarawih-ramadhan",
+      "title": {
+        "id": "Sholat Tarawih Ramadhan",
+        "en": "Ramadhan Tarawih Prayer"
+      },
+      "shortDescription": {
+        "id": "Sholat Tarawih berjamaah setiap malam selama bulan Ramadhan.",
+        "en": "Congregational Tarawih prayer every night during the month of Ramadhan."
+      },
+      "fullDescription": {
+        "id": "Sholat Tarawih berjamaah dilaksanakan setiap malam selama bulan Ramadhan di Masjid Hadi Hasan Faqeeh. Sholat Tarawih dilaksanakan setelah sholat Isya berjamaah dengan imam yang fasih membaca Al-Quran. Mari ramaikan masjid dan tingkatkan ibadah di bulan suci Ramadhan bersama-sama.",
+        "en": "Congregational Tarawih prayer is held every night during the month of Ramadhan at Hadi Hasan Faqeeh Mosque. Tarawih prayer is performed after Isha prayer led by an imam with excellent Quran recitation. Let's enliven the mosque and increase worship in the holy month of Ramadhan together."
+      },
+      "image": "assets/images/activities/shalat-terawih.png",
+      "schedule": {
+        "id": "Setiap malam Ramadhan",
+        "en": "Every night during Ramadhan"
+      },
+      "time": "Ba'da Isya",
+      "location": {
+        "id": "Masjid Hadi Hasan Faqeeh",
+        "en": "Hadi Hasan Faqeeh Mosque"
+      },
+      "instructor": {
+        "id": "Imam Masjid",
+        "en": "Mosque Imam"
+      },
+      "targetAudience": {
+        "id": "Seluruh jamaah",
+        "en": "All congregation"
+      },
+      "fee": {
+        "id": "Gratis",
+        "en": "Free"
+      },
+      "isActive": true
+    }
+  ]
+}

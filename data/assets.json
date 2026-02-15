@@ -1,0 +1,48 @@
+{
+  "assets": {
+    "logo": {
+      "src": "assets/images/logo/logo.png",
+      "alt": {
+        "id": "Logo Masjid Hadi Hasan Faqeeh",
+        "en": "Masjid Hadi Hasan Faqeeh Logo"
+      }
+    },
+    "cover": {
+      "hero": {
+        "src": "assets/images/gallery/IMG_20260131_083533.jpeg",
+        "alt": {
+          "id": "Cover Hero Masjid",
+          "en": "Mosque Hero Cover"
+        }
+      },
+      "about": {
+        "src": "assets/images/logo/logo.png",
+        "alt": {
+          "id": "Gambar Tentang Masjid",
+          "en": "About Mosque Image"
+        }
+      },
+      "activity1": {
+        "src": "assets/images/gallery/IMG_20260131_083641.jpeg",
+        "alt": {
+          "id": "Gambar Kegiatan 1",
+          "en": "Activity Image 1"
+        }
+      },
+      "activity2": {
+        "src": "assets/images/gallery/IMG_20260131_083654.jpeg",
+        "alt": {
+          "id": "Gambar Kegiatan 2",
+          "en": "Activity Image 2"
+        }
+      }
+    },
+    "favicon": {
+      "src": "assets/images/favicon.ico",
+      "alt": {
+        "id": "Favicon",
+        "en": "Favicon"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "features": {
+    "ramadhanSchedule": {
+      "enabled": true,
+      "useApi": true,
+      "hijriYear": 1447,
+      "hijriMonth": 9
+    },
+    "donation": {
+      "enabled": false
+    },
+    "announcements": {
+      "enabled": true
+    }
+  },
+  "api": {
+    "aladhan": {
+      "baseUrl": "https://api.aladhan.com/v1",
+      "city": "Bogor",
+      "country": "Indonesia",
+      "method": 11,
+      "imsakAdjustment": -10
+    }
+  },
+  "ramadhanInfo": {
+    "location": {
+      "id": "Kabupaten Bogor",
+      "en": "Bogor Regency"
+    },
+    "source": {
+      "id": "Sumber: API Aladhan (Kemenag RI)",
+      "en": "Source: Aladhan API (Indonesian Ministry of Religious Affairs)"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "meta": {
+    "title": "Masjid Hadi Hasan Faqeeh - Bogor, Indonesia",
+    "description": "Masjid Hadi Hasan Faqeeh - Islamic worship and activity center in Bogor, Indonesia. Prayer times, Islamic studies, and religious activities."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "prayerSchedule": "Prayer Times",
+    "announcements": "Announcements",
+    "activities": "Activities",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "bismillah": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم",
+    "mosqueName": "Masjid Hadi Hasan Faqeeh",
+    "location": "Bogor, Indonesia",
+    "tagline": "\"Indeed, the mosques are for Allah, so do not invoke anyone along with Allah.\"",
+    "quoteSource": "— QS. Al-Jin: 18",
+    "ctaButton": "View Prayer Times"
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Masjid Hadi Hasan Faqeeh",
+    "description": "Masjid Hadi Hasan Faqeeh is an Islamic worship and activity center located in Bogor, Indonesia. Established with the spirit of becoming a comfortable house of Allah for all Muslims to perform worship and gain religious knowledge.",
+    "visionTitle": "Vision",
+    "visionText": "To become a prosperous mosque, bustling with congregation, and serving as a center for nurturing Muslims with noble character according to the Quran and Sunnah.",
+    "missionTitle": "Mission",
+    "missionItems": [
+      "Conduct 5 daily congregational prayers",
+      "Hold regular Islamic studies and lectures",
+      "Nurture the young generation through Quran education",
+      "Strengthen Islamic brotherhood"
+    ]
+  },
+  "prayerSchedule": {
+    "badge": "Prayer Times",
+    "title": "Today's Prayer Schedule",
+    "subtitle": "Prayer times for Bogor, Indonesia region",
+    "loading": "Loading prayer times...",
+    "error": "Failed to load prayer times. Please try again.",
+    "retry": "Retry",
+    "note": "* Schedule based on Indonesian Ministry of Religious Affairs calculation",
+    "prayers": {
+      "fajr": "Fajr",
+      "dhuhr": "Dhuhr",
+      "asr": "Asr",
+      "maghrib": "Maghrib",
+      "isha": "Isha"
+    }
+  },
+  "announcements": {
+    "badge": "Latest News",
+    "title": "Announcements",
+    "subtitle": "Latest information about mosque activities and announcements",
+    "readMore": "Read More",
+    "empty": {
+      "title": "No Announcements",
+      "message": "There are no announcements at the moment. Please check back later."
+    },
+    "detail": {
+      "backButton": "Back to Announcements",
+      "date": "Date",
+      "time": "Time",
+      "location": "Location",
+      "speaker": "Speaker",
+      "category": "Category",
+      "share": "Share",
+      "otherAnnouncements": "Other Announcements"
+    }
+  },
+  "activities": {
+    "badge": "Our Programs",
+    "title": "Mosque Activities",
+    "subtitle": "Various regular activities and community development programs",
+    "readMore": "Read More",
+    "empty": {
+      "title": "No Activities",
+      "message": "There are no scheduled activities at the moment. Please check back later."
+    },
+    "detail": {
+      "backButton": "Back to Activities",
+      "schedule": "Schedule",
+      "time": "Time",
+      "location": "Location",
+      "instructor": "Instructor",
+      "targetAudience": "Target Audience",
+      "fee": "Fee",
+      "otherActivities": "Other Activities"
+    }
+  },
+  "gallery": {
+    "badge": "Documentation",
+    "title": "Mosque Gallery",
+    "subtitle": "Documentation of activities and atmosphere at Masjid Hadi Hasan Faqeeh",
+    "empty": {
+      "title": "No Photos",
+      "message": "Photo gallery is not available at the moment."
+    }
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "Contact & Location",
+    "subtitle": "Please contact us for more information",
+    "addressTitle": "Address",
+    "address": "Panorama Lido RT 004 RW 002\nDesa Ciburuy, Kec. Cigombong\nKab. Bogor, West Java 12710, Indonesia",
+    "phoneTitle": "Phone",
+    "phone": "+62 8227 5540 539",
+    "whatsapp": "+62 8227 5540 539 (WhatsApp)",
+    "emailTitle": "Email",
+    "email": "masjidhadihasanfaqeeh@gmail.com",
+    "hoursTitle": "Operating Hours",
+    "hoursSecretariat": "Secretariat: Monday - Friday, 08:00 - 17:00",
+    "hoursMosque": "Mosque: Open 24 Hours"
+  },
+  "footer": {
+    "description": "A comfortable Islamic worship and activity center for all Muslims to perform worship and gain religious knowledge.",
+    "menuTitle": "Menu",
+    "contactTitle": "Contact",
+    "copyright": "All rights reserved."
+  },
+  "ramadhan": {
+    "badge": "Ramadhan 1447 H",
+    "title": "Ramadhan Fasting Schedule",
+    "subtitle": "Fasting schedule for Bogor Regency area",
+    "location": "Bogor Regency",
+    "source": "Source: Ministry of Religious Affairs RI",
+    "day": "Day ",
+    "date": "Date",
+    "imsak": "Imsak",
+    "subuh": "Fajr",
+    "terbit": "Sunrise",
+    "dhuha": "Dhuha",
+    "dzuhur": "Dhuhr",
+    "ashar": "Asr",
+    "maghrib": "Maghrib",
+    "isya": "Isha",
+    "today": "Today",
+    "showAll": "Show Full Schedule",
+    "hideAll": "Hide",
+    "viewToday": "View Today's Schedule",
+    "todayScheduleTitle": "Today's Fasting Schedule",
+    "notAvailableTitle": "Schedule Not Available",
+    "notAvailableMessage": "Today's fasting schedule is not available. Please check again during the month of Ramadhan.",
+    "closeButton": "Close"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "backToHome": "Back to Home",
+    "notFound": "Page not found",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "language": "Language",
+    "share": "Share"
+  }
+}

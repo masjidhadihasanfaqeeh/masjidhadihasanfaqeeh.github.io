@@ -1,0 +1,68 @@
+{
+  "gallery": [
+    {
+      "id": "gallery-001",
+      "src": "assets/images/gallery/IMG_20260131_083533.jpeg",
+      "alt": {
+        "id": "Suasana Masjid Hadi Hasan Faqeeh",
+        "en": "Masjid Hadi Hasan Faqeeh Atmosphere"
+      },
+      "category": {
+        "id": "Masjid",
+        "en": "Mosque"
+      },
+      "description": {
+        "id": "Pemandangan interior masjid yang indah dan nyaman untuk beribadah",
+        "en": "Beautiful mosque interior view, comfortable for worship"
+      }
+    },
+    {
+      "id": "gallery-002",
+      "src": "assets/images/gallery/IMG_20260131_083549.jpeg",
+      "alt": {
+        "id": "Kegiatan Pengajian Masjid",
+        "en": "Mosque Islamic Study Activity"
+      },
+      "category": {
+        "id": "Kegiatan",
+        "en": "Activity"
+      },
+      "description": {
+        "id": "Dokumentasi kegiatan pengajian rutin di masjid",
+        "en": "Documentation of regular Islamic study at the mosque"
+      }
+    },
+    {
+      "id": "gallery-003",
+      "src": "assets/images/gallery/IMG_20260131_083641.jpeg",
+      "alt": {
+        "id": "Sholat Berjamaah",
+        "en": "Congregational Prayer"
+      },
+      "category": {
+        "id": "Ibadah",
+        "en": "Worship"
+      },
+      "description": {
+        "id": "Jamaah melaksanakan sholat berjamaah dengan khusyuk",
+        "en": "Congregation performing prayer with devotion"
+      }
+    },
+    {
+      "id": "gallery-004",
+      "src": "assets/images/gallery/IMG_20260131_083654.jpeg",
+      "alt": {
+        "id": "Kegiatan TPA",
+        "en": "TPA Activity"
+      },
+      "category": {
+        "id": "Pendidikan",
+        "en": "Education"
+      },
+      "description": {
+        "id": "Anak-anak belajar mengaji di TPA masjid",
+        "en": "Children learning Quran at mosque TPA"
+      }
+    }
+  ]
+}

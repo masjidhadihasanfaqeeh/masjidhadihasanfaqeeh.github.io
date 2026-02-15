@@ -1,0 +1,161 @@
+{
+  "lang": "id",
+  "langName": "Bahasa Indonesia",
+  "meta": {
+    "title": "Masjid Hadi Hasan Faqeeh - Bogor, Indonesia",
+    "description": "Masjid Hadi Hasan Faqeeh - Pusat ibadah dan kegiatan Islam di Bogor, Indonesia. Jadwal sholat, pengajian, dan kegiatan keislaman."
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "prayerSchedule": "Jadwal Sholat",
+    "announcements": "Pengumuman",
+    "activities": "Kegiatan",
+    "gallery": "Galeri",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "bismillah": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم",
+    "mosqueName": "Masjid Hadi Hasan Faqeeh",
+    "location": "Bogor, Indonesia",
+    "tagline": "\"Sesungguhnya masjid-masjid itu adalah milik Allah. Maka janganlah kamu menyembah siapapun di dalamnya selain Allah.\"",
+    "quoteSource": "— QS. Al-Jin: 18",
+    "ctaButton": "Lihat Jadwal Sholat"
+  },
+  "about": {
+    "badge": "Tentang Kami",
+    "title": "Masjid Hadi Hasan Faqeeh",
+    "description": "Masjid Hadi Hasan Faqeeh merupakan pusat ibadah dan kegiatan keislaman yang berlokasi di Bogor, Indonesia. Didirikan dengan semangat untuk menjadi rumah Allah yang nyaman bagi seluruh umat Muslim dalam menjalankan ibadah dan menimba ilmu agama.",
+    "visionTitle": "Visi",
+    "visionText": "Menjadi masjid yang makmur, ramai dengan jamaah, dan menjadi pusat pembinaan umat Islam yang berakhlak mulia sesuai Al-Quran dan Sunnah.",
+    "missionTitle": "Misi",
+    "missionItems": [
+      "Menyelenggarakan sholat berjamaah 5 waktu",
+      "Mengadakan kajian dan pengajian rutin",
+      "Membina generasi muda melalui TPA",
+      "Mempererat ukhuwah islamiyah"
+    ]
+  },
+  "prayerSchedule": {
+    "badge": "Waktu Sholat",
+    "title": "Jadwal Sholat Hari Ini",
+    "subtitle": "Jadwal waktu sholat untuk wilayah Bogor, Indonesia",
+    "loading": "Memuat jadwal sholat...",
+    "error": "Gagal memuat jadwal sholat. Silakan coba lagi.",
+    "retry": "Coba Lagi",
+    "note": "* Jadwal berdasarkan perhitungan Kementerian Agama RI",
+    "prayers": {
+      "fajr": "Subuh",
+      "dhuhr": "Dzuhur",
+      "asr": "Ashar",
+      "maghrib": "Maghrib",
+      "isha": "Isya"
+    }
+  },
+  "announcements": {
+    "badge": "Info Terbaru",
+    "title": "Pengumuman",
+    "subtitle": "Informasi terkini seputar kegiatan dan pengumuman masjid",
+    "readMore": "Selengkapnya",
+    "empty": {
+      "title": "Belum Ada Pengumuman",
+      "message": "Saat ini belum ada pengumuman. Silakan kunjungi lagi nanti."
+    },
+    "detail": {
+      "backButton": "Kembali ke Pengumuman",
+      "date": "Tanggal",
+      "time": "Waktu",
+      "location": "Lokasi",
+      "speaker": "Pemateri",
+      "category": "Kategori",
+      "share": "Bagikan",
+      "otherAnnouncements": "Pengumuman Lainnya"
+    }
+  },
+  "activities": {
+    "badge": "Program Kami",
+    "title": "Kegiatan Masjid",
+    "subtitle": "Berbagai kegiatan rutin dan program pembinaan umat",
+    "readMore": "Selengkapnya",
+    "empty": {
+      "title": "Belum Ada Kegiatan",
+      "message": "Saat ini belum ada kegiatan terjadwal. Silakan kunjungi lagi nanti."
+    },
+    "detail": {
+      "backButton": "Kembali ke Kegiatan",
+      "schedule": "Jadwal",
+      "time": "Waktu",
+      "location": "Lokasi",
+      "instructor": "Pengajar",
+      "targetAudience": "Sasaran",
+      "fee": "Biaya",
+      "otherActivities": "Kegiatan Lainnya"
+    }
+  },
+  "gallery": {
+    "badge": "Dokumentasi",
+    "title": "Galeri Masjid",
+    "subtitle": "Dokumentasi kegiatan dan suasana Masjid Hadi Hasan Faqeeh",
+    "empty": {
+      "title": "Belum Ada Foto",
+      "message": "Galeri foto belum tersedia saat ini."
+    }
+  },
+  "contact": {
+    "badge": "Hubungi Kami",
+    "title": "Kontak & Lokasi",
+    "subtitle": "Silakan hubungi kami untuk informasi lebih lanjut",
+    "addressTitle": "Alamat",
+    "address": "Panorama Lido RT 004 RW 002\nDesa Ciburuy, Kec. Cigombong\nKab. Bogor, West Java 12710, Indonesia",
+    "phoneTitle": "Telepon",
+    "phone": "+62 8227 5540 539",
+    "whatsapp": "+62 8227 5540 539 (WhatsApp)",
+    "emailTitle": "Email",
+    "email": "masjidhadihasanfaqeeh@gmail.com",
+    "hoursTitle": "Jam Operasional",
+    "hoursSecretariat": "Sekretariat: Senin - Jumat, 08:00 - 17:00",
+    "hoursMosque": "Masjid: Buka 24 Jam"
+  },
+  "footer": {
+    "description": "Pusat ibadah dan kegiatan keislaman yang nyaman bagi seluruh umat Muslim dalam menjalankan ibadah dan menimba ilmu agama.",
+    "menuTitle": "Menu",
+    "contactTitle": "Kontak",
+    "copyright": "Hak cipta dilindungi."
+  },
+  "ramadhan": {
+    "badge": "Ramadhan 1447 H",
+    "title": "Jadwal Imsakiyah Ramadhan",
+    "subtitle": "Jadwal puasa Ramadhan untuk wilayah Kabupaten Bogor",
+    "location": "Kabupaten Bogor",
+    "source": "Sumber: Kemenag RI",
+    "day": "Hari ke-",
+    "date": "Tanggal",
+    "imsak": "Imsak",
+    "subuh": "Subuh",
+    "terbit": "Terbit",
+    "dhuha": "Dhuha",
+    "dzuhur": "Dzuhur",
+    "ashar": "Ashar",
+    "maghrib": "Maghrib",
+    "isya": "Isya",
+    "today": "Hari Ini",
+    "showAll": "Lihat Semua Jadwal",
+    "hideAll": "Sembunyikan",
+    "viewToday": "Lihat Jadwal Hari Ini",
+    "todayScheduleTitle": "Jadwal Imsakiyah Hari Ini",
+    "notAvailableTitle": "Jadwal Tidak Tersedia",
+    "notAvailableMessage": "Jadwal imsakiyah untuk hari ini tidak tersedia. Silakan periksa kembali saat bulan Ramadhan.",
+    "closeButton": "Tutup"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba Lagi",
+    "backToHome": "Kembali ke Beranda",
+    "notFound": "Halaman tidak ditemukan",
+    "darkMode": "Mode Gelap",
+    "lightMode": "Mode Terang",
+    "language": "Bahasa",
+    "share": "Bagikan"
+  }
+}
