@@ -90,10 +90,102 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
+
+        /* Hide elements until Alpine.js loads */
+        [x-cloak] {
+            display: none !important;
+        }
+
+        /* Preloader styles */
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #047857 0%, #065f46 50%, #064e3b 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        .preloader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .preloader-mosque {
+            animation: mosque-glow 2s ease-in-out infinite;
+        }
+
+        @keyframes mosque-glow {
+            0%, 100% { filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3)); }
+            50% { filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.6)); }
+        }
+
+        .preloader-dots {
+            display: flex;
+            gap: 8px;
+            margin-top: 30px;
+        }
+
+        .preloader-dot {
+            width: 12px;
+            height: 12px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 50%;
+            animation: dot-bounce 1.4s ease-in-out infinite;
+        }
+
+        .preloader-dot:nth-child(1) { animation-delay: 0s; }
+        .preloader-dot:nth-child(2) { animation-delay: 0.2s; }
+        .preloader-dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes dot-bounce {
+            0%, 80%, 100% { transform: scale(0.6); opacity: 0.5; }
+            40% { transform: scale(1); opacity: 1; }
+        }
     </style>
 </head>
 
 <body class="font-sans bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 transition-colors duration-300">
+
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-mosque">
+            <!-- Mosque SVG Icon -->
+            <svg width="120" height="120" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Main Dome -->
+                <ellipse cx="50" cy="35" rx="25" ry="20" fill="rgba(255,255,255,0.9)"/>
+                <!-- Crescent on top -->
+                <path d="M50 8 C55 8 58 12 58 17 C58 22 55 26 50 26 C52 26 54 22 54 17 C54 12 52 8 50 8" fill="#d4a753" transform="translate(0, -3)"/>
+                <!-- Main Building -->
+                <rect x="25" y="45" width="50" height="35" fill="rgba(255,255,255,0.9)"/>
+                <!-- Left Minaret -->
+                <rect x="10" y="30" width="10" height="50" fill="rgba(255,255,255,0.85)"/>
+                <ellipse cx="15" cy="30" rx="5" ry="7" fill="rgba(255,255,255,0.85)"/>
+                <circle cx="15" cy="20" r="3" fill="#d4a753"/>
+                <!-- Right Minaret -->
+                <rect x="80" y="30" width="10" height="50" fill="rgba(255,255,255,0.85)"/>
+                <ellipse cx="85" cy="30" rx="5" ry="7" fill="rgba(255,255,255,0.85)"/>
+                <circle cx="85" cy="20" r="3" fill="#d4a753"/>
+                <!-- Door -->
+                <rect x="42" y="55" width="16" height="25" rx="8" fill="#047857"/>
+                <!-- Windows -->
+                <rect x="30" y="55" width="8" height="12" rx="4" fill="#047857"/>
+                <rect x="62" y="55" width="8" height="12" rx="4" fill="#047857"/>
+            </svg>
+        </div>
+        <p class="text-white/90 text-lg font-medium mt-6">Masjid Hadi Hasan Faqeeh</p>
+        <div class="preloader-dots">
+            <div class="preloader-dot"></div>
+            <div class="preloader-dot"></div>
+            <div class="preloader-dot"></div>
+        </div>
+    </div>
 
     <!-- Navbar -->
     <nav x-data="{ mobileMenuOpen: false, scrolled: false }" @scroll.window="scrolled = window.scrollY > 50"
@@ -565,7 +657,7 @@
         </div>
         
         <!-- Today Schedule Popup Modal -->
-        <div x-show="showTodaySchedulePopup" 
+        <div x-cloak x-show="showTodaySchedulePopup" 
              x-transition:enter="transition ease-out duration-300"
              x-transition:enter-start="opacity-0"
              x-transition:enter-end="opacity-100"
@@ -842,11 +934,11 @@
                 </div>
 
                 <!-- Modal -->
-                <div x-show="galleryModal.isOpen" x-transition:enter="transition ease-out duration-300"
+                <div x-cloak x-show="galleryModal.isOpen" x-transition:enter="transition ease-out duration-300"
                     x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
                     x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100"
                     x-transition:leave-end="opacity-0" @keydown.escape.window="closeGalleryModal()"
-                    class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90" style="display: none;">
+                    class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90">
 
                     <!-- Close Button -->
                     <button @click="closeGalleryModal()"
@@ -1425,6 +1517,24 @@
                 }
             }
         }
+    </script>
+
+    <!-- Preloader Script -->
+    <script>
+        // Hide preloader when page is fully loaded
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('preloader');
+            if (preloader) {
+                // Add small delay for smoother transition
+                setTimeout(function() {
+                    preloader.classList.add('hidden');
+                    // Remove preloader from DOM after transition
+                    setTimeout(function() {
+                        preloader.remove();
+                    }, 500);
+                }, 500);
+            }
+        });
     </script>
 </body>
 
